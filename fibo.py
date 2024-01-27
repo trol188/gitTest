@@ -4,7 +4,7 @@ def fibonacci(n):
     if n <= 0:
         raise ValueError("n must be a positive integer")
     elif n == 1:
-        return 0
+        return 0  # caso de borde
     elif n == 2:
         return 1
     else:
