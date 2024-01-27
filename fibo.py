@@ -14,5 +14,4 @@ def fibonacci(n):
         return b
 
 
-print(fibonacci(11))
-print(fibonacci(12))
+print(fibonacci(50))
