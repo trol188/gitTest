@@ -12,3 +12,6 @@ def fibonacci(n):
         for _ in range(2, n):
             a, b = b, a + b
         return b
+
+
+print(fibonacci(11))
